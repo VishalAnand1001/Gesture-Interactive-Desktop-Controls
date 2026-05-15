@@ -231,4 +231,4 @@ This project helped in learning:
 
 Vishal Anand
 
-Computer Science Student | AI & Computer Vision Enthusiast
+Computer Science Student | AI Enthusiast
