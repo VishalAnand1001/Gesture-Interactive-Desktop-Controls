@@ -15,4 +15,4 @@ def detect_hands(frame):
                 hand_landmarks,
                 mp_hands.HAND_CONNECTIONS
             )
-    return frame
+    return frame, results 
