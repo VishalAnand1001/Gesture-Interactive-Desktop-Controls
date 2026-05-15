@@ -1,6 +1,7 @@
 import cv2
 from hand_detector import detect_hands
 from gesture_recognizer import detect_gesture
+from action_controller import control_action
 
 webcam = cv2.VideoCapture(0)
 
@@ -20,6 +21,7 @@ while True:
             (0, 255, 0),
             2
         )
+        control_action(gesture)
         cv2.imshow("Camera", frame)
         key = cv2.waitKey(1)
         if key==27:
